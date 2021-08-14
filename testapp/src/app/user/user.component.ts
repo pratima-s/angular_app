@@ -71,6 +71,8 @@ export class UserComponent implements OnInit {
         break;
     }
   }
+  
+
   addElements() {
     console.log(this.ngForm.value)
     this.userData.push(this.ngForm.value)
